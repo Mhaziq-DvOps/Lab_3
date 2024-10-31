@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navigation {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: beige;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: rgb(175, 255, 255);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #0073e6;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 10px 20px;
+    gap: 20px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(175, 255, 255);
+    padding: 10px;
+    width: 20%;
+    border-radius: 8px;
+}
+
+.side-bar a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.side-bar a:hover {
+    background-color: #f0f0f0;
+}
+
+.body-area {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #0073e6;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style: square;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
